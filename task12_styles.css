@@ -1,0 +1,33 @@
+body {
+    background-color: #A22B55;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    background-color: #75203F;
+    text-align: left;
+    color: white;
+    font-family: Calibri;
+}
+
+fieldset {
+    background-color: #75203F;
+    border: none;
+    padding: 10px;
+}
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    font-size:18px;
+    padding:10px 38px;
+    border-radius:5px;
+    font-style: bold;
+    width:60%;
+    font-weight:bold;
+}
